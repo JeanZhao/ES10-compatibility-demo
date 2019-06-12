@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import flat from 'core-js/features/array/flat';
 
 class FormContainer extends Component {
     constructor(props, state) {
@@ -11,7 +12,7 @@ class FormContainer extends Component {
     handleClick(event) {
         let value = this.textInput.value;
             if (value && value != "") {
-                let newValue = value.split('').flatMap(word => [[...word]]);
+                let newValue = flat(value.split(''), 2);
                 this.setState({ result:  newValue});
             }
     }
