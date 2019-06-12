@@ -1,15 +1,17 @@
 {
     "name": "lodash",
     "version": "1.0.0",
-    "description": "",
+    "description": "A demo for using ES10 latest proposals with lodash at front-end.",
     "scripts": {
         "start": "webpack-dev-server --open --mode development",
         "build": "webpack --mode production",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
+    "keywords": [
+        "lodash", "ES2019", "ES10"
+    ],
+    "author": "Jean Zhao",
+    "license": "MIT",
     "devDependencies": {
         "babel-cli": "^6.26.0",
         "babel-core": "^6.26.0",

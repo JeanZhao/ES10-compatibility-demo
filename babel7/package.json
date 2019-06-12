@@ -1,15 +1,17 @@
 {
     "name": "babel7",
     "version": "1.0.0",
-    "description": "",
+    "description": "A demo for using ES10 latest proposals with babel 7 at front-end.",
     "scripts": {
         "start": "webpack-dev-server --open --mode development",
         "build": "webpack --mode production",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
+    "keywords": [
+        "Babel", "ES2019", "ES10"
+    ],
+    "author": "Jean Zhao",
+    "license": "MIT",
     "devDependencies": {
         "@babel/core": "^7.4.5",
         "@babel/preset-env": "^7.4.5",
